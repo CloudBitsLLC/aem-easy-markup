@@ -1,0 +1,4 @@
+org.eclipse.core.resources.prefs
+.classpath
+ui.apps/.settings
+ui.apps/target

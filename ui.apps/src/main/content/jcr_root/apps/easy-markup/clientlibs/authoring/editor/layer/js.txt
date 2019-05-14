@@ -1,0 +1,7 @@
+#base=js
+
+easymarkup.js
+easymarkup.Editor.js
+easymarkup.SidePanel.js
+easymarkup.Toolbar.js
+easymarkup.Layer.js

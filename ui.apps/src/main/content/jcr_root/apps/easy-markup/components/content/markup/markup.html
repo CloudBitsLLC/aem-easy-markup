@@ -1,0 +1,14 @@
+<div data-sly-test="${wcmmode.edit && !properties.markupHTML}"
+    class="cq-placeholder"
+    data-emptytext="Easy Markup">
+</div>
+
+<style data-sly-test="${properties.markupCSS}">
+    ${properties.markupCSS @ context="html"}
+</style>
+
+${properties.markupHTML @ context="html"}
+
+<script data-sly-test="${properties.markupJS}">
+    ${properties.markupJS @ context="html"}
+</script>
