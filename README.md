@@ -17,14 +17,15 @@ Easy Markup package adds a new editing mode to the AEM page editor. This new mod
 ## How I can install it?
 
 Getting Easy Markup working on AEM is very simple:
-1 - Download the package or build it from github.
-2 - Install it on an author environment (DEV or STAGE, we strongly don't recommend to install any extra package on a PROD environment).
-3 - Grant access to the instance to your markup web designers.
-4 - Let them create pages with the new markups!
+1. Download the package or build it from github.
+2. Install it on an author environment (DEV or STAGE, we strongly don't recommend to install any extra package on a PROD environment).
+3. Grant access to the instance to your markup web designers.
+4. Let them create pages with the new markups!
 
 ## What about style system?
 
 Easy Markup comes with another extra feature: adds a toolbar button on each component (text component, carousel, teaser, etc), that creates a copy of the component, with Easy Markup features enabled.
+
 This allows the author to create a new style for that component, by editing the CSS section of the markup. Once the web designer finishes the style edition, the new styles should be added to the source code and to the style system, as a visual variation of the existing component.
 
 ## Easy Markup will affect the overall Author performance?
@@ -34,7 +35,8 @@ Easy Markup is a lightweight plugin of AEM. It's a small and fast library for ma
 ## Building
 
 This project uses Maven for building. Common command:
-From the root directory, run ``mvn -PautoInstallPackage clean install`` to build the content package and install to a CQ instance.
+
+From the root directory, run `mvn -PautoInstallPackage clean install` to build the content package and install to a CQ instance.
 
 ## Compatibility
 
