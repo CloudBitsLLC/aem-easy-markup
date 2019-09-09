@@ -9,7 +9,7 @@
                 ns.edit.EditableActions.INSERT.execute(markupComponent[0], 'before', editable);
             },
             condition: function (editable) {
-                return editable.type === 'wcm/foundation/components/responsivegrid/new';
+                return editable.type === 'wcm/foundation/components/responsivegrid/new' || editable.type === 'wcm/foundation/components/parsys/newpar';
             }
         }),
         'COPYMARKUP': new ns.ui.ToolbarAction({
@@ -25,6 +25,7 @@
             },
             condition: function (editable) {
                 if (editable.type === 'wcm/foundation/components/responsivegrid/new' ||
+                    editable.type === 'wcm/foundation/components/parsys/newpar' ||
                     editable.type === 'easy-markup/components/content/markup') {
                     return false;
                 }
